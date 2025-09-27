@@ -1,0 +1,420 @@
+html {
+    color-scheme: only light;
+    font-family: sans-serif;
+    color: rgb(82, 12, 139);
+}
+
+a {
+    color: rgb(82, 12, 139);
+}
+
+.container {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(238, 235, 235);
+}
+
+.section-main {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+}
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.desired-role {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+
+
+.link-main-info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    justify-content: space-between;
+    column-gap: 50px;
+}
+
+.contacts-details {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    gap: 10px;
+    border: 2px solid rgb(238, 235, 235);
+}
+
+.wrapper-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+}
+
+.contacts-details:hover {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+
+    .wrapper-image {
+        background-color: rgb(238, 235, 235);
+    }
+}
+
+.icon-info {
+    width: 20px;
+    height: 20px;
+}
+
+.text-info {
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(82, 12, 139);
+}
+
+.wrapper-main-photo {
+    display: flex;
+    max-width: 100%;
+}
+
+.main-photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 250px;
+    object-fit: cover;
+    object-position: 50% 40%;
+}
+
+.section-summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    position: relative;
+}
+
+.line-hr {
+    position: absolute;
+    width: 100%;
+    border: 2px solid #ffffff;
+    top: 9px;
+}
+
+.title-section {
+    display: flex;
+    align-self: center;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    background-color: rgb(238, 235, 235);
+    z-index: 1;
+}
+
+.text-paragraph {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.bold-text {
+    font-weight: 800;
+}
+
+.element-before::before {
+    content: '🗹';
+    padding-right: 10px;
+}
+
+.section-profskills {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    position: relative;
+}
+
+.list-testing {
+    position: relative;
+}
+
+.item-list-testing {
+    padding-left: 40px;
+    font-size: 18px;
+}
+
+.list-testing li::before {
+    position: absolute;
+    content: '✔';
+    left: 15px;
+}
+
+.section-work {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    position: relative;
+}
+
+.block-work {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.line-work {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.main-info-work {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    font-size: 18px;
+}
+
+.company {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.date {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.wrapper-logo-alest,
+.wrapper-logo-estate {
+    display: flex;
+    align-items: center;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.logo-alest,
+.logo-estate {
+    width: 100%;
+    border-radius: 50px;
+    background-color: #ffffff;
+}
+
+.section-education {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    position: relative;
+}
+
+.wrapper-logo-privatbank {
+    display: flex;
+    align-items: center;
+    max-width: 100px;
+    height: 50px;
+}
+
+.logo-privatbank {
+    width: 100%;
+    object-fit: contain;
+}
+
+.line-education {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.main-info-education {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    font-size: 18px;
+}
+
+.university {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.section-certificates {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    position: relative;
+}
+
+.line-certificates {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+
+.main-info-certificates {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.section-portfolio {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    position: relative;
+}
+
+.section-interests {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    position: relative;
+}
+
+.section-summary:hover,
+.section-profskills:hover,
+.section-work:hover,
+.section-education:hover,
+.section-certificates:hover,
+.section-portfolio:hover,
+.section-interests:hover {
+    .title-section {
+        background-color: #ffffff;
+        border-radius: 5px;
+    }
+
+    .line-hr {
+        border: 2px solid rgb(238, 235, 235);
+    }
+}
+
+@media (max-width: 1024px) {
+    .section-main {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-info {
+        margin: 20px;
+    }
+}
+
+@media (max-width: 714px) {
+    .main-info-contacts {
+        flex-wrap: wrap;
+
+        justify-content: flex-start;
+    }
+
+    .link-main-info {
+        gap: 0;
+    }
+}
+
+@media (max-width: 673px) {
+    .line-education {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 650px) {
+    .link-main-info {
+        flex-direction: column;
+    }
+
+    .order-1 {
+        order: 1;
+    }
+
+    .order-2 {
+        order: 2;
+    }
+}
+
+@media (max-width: 457px) {
+    .block-work {
+        row-gap: 10px;
+    }
+
+    .line-work {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .company {
+        max-width: 290px;
+    }
+
+    .privatbank {
+        max-width: 250px;
+    }
+}
+
+@media (max-width: 410px) {
+    .privatbank {
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 360px) {
+    .block-work {
+        row-gap: 20px;
+    }
+
+    .line-work {
+        flex-direction: column;
+        row-gap: 5px;
+    }
+
+    .main-info-work {
+        align-items: center;
+    }
+
+    .privatbank {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 350px) {
+    .link-main-info {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contacts-details {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 320px) {
+    .line-hr {
+        display: none;
+    }
+}
